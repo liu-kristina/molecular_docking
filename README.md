@@ -8,6 +8,6 @@ Modify chemical structures with the rdkit library
 Extract data from PDBx/mmCIF files (the native Protein Data Bank data file format) using the Biopython library
 Dock ligands with enzymes, yielding visual and quantitative energy results
 
-This was developed by Paul A. Craig (Rochester Institute of Technology) and Jessica A. Nash (Molecular Sciences Software Institute).
+Thank you to Paul A. Craig (Rochester Institute of Technology) and Jessica A. Nash (Molecular Sciences Software Institute).
 
 
