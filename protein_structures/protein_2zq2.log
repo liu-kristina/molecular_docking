@@ -1,0 +1,96 @@
+2025-04-21 08:57:53,270 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2025-04-21 08:57:53,270 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-04-21 08:57:53,270 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-04-21 08:57:53,270 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2025-04-21 08:57:53,271 INFO:main.py:772:main_driver:Loading topology files.
+2025-04-21 08:57:53,299 INFO:main.py:774:main_driver:Loading molecule: protein_structures/protein_2zq2.pdb
+2025-04-21 08:57:53,299 ERROR:pdb.py:2584:read_pdb:Error parsing line: invalid literal for int() with base 10: ''
+2025-04-21 08:57:53,299 ERROR:pdb.py:2585:read_pdb:<REMARK     2>
+2025-04-21 08:57:53,299 ERROR:pdb.py:2586:read_pdb:Truncating remaining errors for record type:REMARK
+2025-04-21 08:57:53,302 WARNING:io.py:468:get_molecule:Warning: protein_structures/protein_2zq2.pdb is a non-standard PDB file.
+
+2025-04-21 08:57:53,302 ERROR:io.py:469:get_molecule:['REMARK']
+2025-04-21 08:57:53,302 INFO:main.py:779:main_driver:Setting up molecule.
+2025-04-21 08:57:53,308 INFO:main.py:417:setup_molecule:Created biomolecule object with 223 residues and 1625 atoms.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 61.
+2025-04-21 08:57:53,308 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 61. At least one of the instances is being ignored.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 113.
+2025-04-21 08:57:53,308 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 113. At least one of the instances is being ignored.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 122.
+2025-04-21 08:57:53,308 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 122. At least one of the instances is being ignored.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 167.
+2025-04-21 08:57:53,308 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 167. At least one of the instances is being ignored.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 170.
+2025-04-21 08:57:53,308 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 170. At least one of the instances is being ignored.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in SER A 236.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in SER A 236.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in SER A 236.
+2025-04-21 08:57:53,308 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in SER A 236.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in SER A 236.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OG in SER A 236.
+2025-04-21 08:57:53,309 WARNING:main.py:433:setup_molecule:Multiple occupancies found in SER A 236. At least one of the instances is being ignored.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE2 in GLN A 240.
+2025-04-21 08:57:53,309 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLN A 240. At least one of the instances is being ignored.
+2025-04-21 08:57:53,309 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2025-04-21 08:57:53,311 INFO:main.py:613:non_trivial:Loading forcefield.
+2025-04-21 08:57:53,316 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2025-04-21 08:57:53,317 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 222
+2025-04-21 08:57:53,317 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 222
+2025-04-21 08:57:53,317 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 222
+2025-04-21 08:57:53,317 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 222
+2025-04-21 08:57:53,318 INFO:main.py:627:non_trivial:Attempting to repair 4 missing atoms in biomolecule.
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CG in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CD in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom CE in residue LYS A 222
+2025-04-21 08:57:53,318 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom NZ in residue LYS A 222
+2025-04-21 08:57:53,319 INFO:biomolecule.py:1077:repair_heavy:Added atom CG to residue LYS A 222 at coordinates 30.628, -3.449, -0.010
+2025-04-21 08:57:53,319 INFO:biomolecule.py:1077:repair_heavy:Added atom CD to residue LYS A 222 at coordinates 32.074, -3.541, -0.453
+2025-04-21 08:57:53,319 INFO:biomolecule.py:1077:repair_heavy:Added atom CE to residue LYS A 222 at coordinates 32.755, -2.198, -0.512
+2025-04-21 08:57:53,319 INFO:biomolecule.py:1077:repair_heavy:Added atom NZ to residue LYS A 222 at coordinates 34.167, -2.339, -0.950
+2025-04-21 08:57:53,319 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2025-04-21 08:57:53,325 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2025-04-21 08:57:53,343 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2025-04-21 08:57:53,449 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2025-04-21 08:57:53,543 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2025-04-21 08:57:53,838 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2025-04-21 08:57:53,840 INFO:main.py:722:non_trivial:Regenerating headers.
+2025-04-21 08:57:53,840 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2025-04-21 08:57:53,848 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
+2025-04-21 08:57:53,858 WARNING:main.py:363:print_pdb:Ignoring 390 header lines in output.
